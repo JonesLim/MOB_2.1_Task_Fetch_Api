@@ -16,7 +16,6 @@ abstract class BaseViewModel : ViewModel() {
         } catch (e: Exception) {
             e.printStackTrace()
             _error.emit(e.message ?: "Something went wrong")
-//            throw e // make the app to crash to check the errors
             null
         }
     }
