@@ -39,7 +39,7 @@ class ProductsAdapter(
             binding.run {
 
                 tvTitle.text = product.title
-                tvCate.text = product.category
+                tvBrand.text = product.brand
                 tvDesc.text = product.description
                 tvPrice.text = product.price.toString()
 
