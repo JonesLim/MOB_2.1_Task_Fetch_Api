@@ -49,8 +49,8 @@ class HomeFragment() : BaseFragment<FragmentHomeBinding>() {
 
         adapter = ProductsAdapter(emptyList())
 
-        binding.rvTodos.adapter = adapter
-        binding.rvTodos.layoutManager =
+        binding.rvProducts.adapter = adapter
+        binding.rvProducts.layoutManager =
             LinearLayoutManager(requireContext(), LinearLayoutManager.VERTICAL, false)
 
     }
