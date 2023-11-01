@@ -39,9 +39,9 @@ class ProductsAdapter(
             binding.run {
 
                 tvTitle.text = product.title
-                tvBrand.text = product.brand
+                tvCate.text = "Category: ${product.category}"
                 tvDesc.text = product.description
-                tvPrice.text = product.price.toString()
+                tvPrice.text = "$ ${product.price.toString()}"
 
                 val imageView: ImageView = imImage
                 Glide.with(imageView)
